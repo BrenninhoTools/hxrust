@@ -1,0 +1,20 @@
+{
+  "name": "hxrust",
+  "url": "https://github.com/BrenninhoTools/hxrust",
+  "license": "MIT",
+  "tags": [
+    "haxe",
+    "rust",
+    "ffi",
+    "native",
+    "cross-platform"
+  ],
+  "description": "A Haxe library for integrating Rust native code through FFI.",
+  "version": "0.1.0",
+  "classPath": "src",
+  "releasenote": "Initial release of hxrust.",
+  "contributors": [
+    "BrenninhoTools"
+  ],
+  "dependencies": {}
+}

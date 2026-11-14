@@ -1,0 +1,22 @@
+[package]
+name = "hxrust"
+version = "0.1.0"
+edition = "2021"
+authors = ["BrenninhoTools"]
+description = "Native Rust backend for the hxrust Haxe library."
+license = "MIT"
+repository = "https://github.com/BrenninhoTools/hxrust"
+homepage = "https://github.com/BrenninhoTools/hxrust"
+readme = "../README.md"
+keywords = ["haxe", "rust", "ffi", "native"]
+categories = ["api-bindings", "development-tools"]
+
+[lib]
+name = "hxrust"
+path = "src/lib.rs"
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+
+[features]
+default = []
